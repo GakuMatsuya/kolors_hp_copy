@@ -1,0 +1,28 @@
+.contact {
+  height: 1000px;
+}
+
+.contact-title {
+  font-size: 70px;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-title::before,
+.contact-title::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
+}
+
+.contact-title::before {
+  margin-right: 5rem;
+}
+
+.contact-title::after {
+  margin-left: 5rem;
+}
